@@ -10,10 +10,8 @@ public class Animal {
         animals.add("鳥");
         animals.add("羊");
 
-        System.out.println(animals.size());
-        System.out.println(animals.get(0));
-        System.out.println(animals.get(1));
-        System.out.println(animals.get(2));
-        System.out.println(animals.get(3));
+        for (String name : animals) {
+            System.out.println(name);
+        }
     }
 }

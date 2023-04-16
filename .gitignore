@@ -98,5 +98,3 @@ gradle-app.setting
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 
-/out/production/Animal/Animal.class
-/out/production/Animal/Main.class
